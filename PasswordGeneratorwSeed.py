@@ -1,7 +1,11 @@
+# for comments on what the code does go to PasswordGenerator.py
+# this one just adds the seed
 import random
 
 
 def random_string(string_length=8, seedk=1):
+    # adding the seed
+    # a seed means the passwords will always be the same but diffrent depending on their length
     random.seed(seedk)
     letters = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U',
                'V', 'W', 'X', 'Y', 'Z',
